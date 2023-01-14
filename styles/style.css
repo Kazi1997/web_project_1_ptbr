@@ -27,11 +27,10 @@
    }
     .logo_place_header {
    position: absolute;
-   z-index: 998;
+   z-index: 1;
    height: 31px;
    width: 154px;
    top: 30px; left: 64px;
-   z-index: 999;
    }
  .header__title {
    width: 730px;
@@ -41,14 +40,14 @@
    justify-content: flex-start;
    margin-top: 200px;
    margin-left: 64px;
-   justify-content: center ;
+   
    }
  .header__subtitle {
     width: 388px;
    font-size: 18px;
    font-weight: normal;
    margin-top: 250px; margin-left:64px ;
-   z-index: 970;
+   z-index: 1;
    }
 
    .header__link {
