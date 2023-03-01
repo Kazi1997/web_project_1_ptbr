@@ -12,7 +12,7 @@
   to {
     transform:rotate(360deg);
   }
-  
+
 }
 
 .page {
@@ -25,7 +25,6 @@
 
 .description {
   padding: 100% 0;
-
 }
 
 .header {
@@ -45,7 +44,6 @@
   width: 154px;
   top: 30px;
   left: 64px;
-  z-index: 999;
 }
 
 .header__title {
@@ -53,7 +51,6 @@
   height: 96px;
   font-size: 102px;
   font-weight: bold;
-  justify-content: flex-start;
   margin-top: 200px;
   margin-left: 64px;
   justify-content: center;
@@ -72,7 +69,6 @@
   text-decoration: none;
   color: #2f80ed;
   display: block;
-
 }
 
 .header__main__illustration {
@@ -108,7 +104,6 @@
 
 .description {
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 100px 0;
   margin-left: 0;
@@ -129,7 +124,6 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
-
 }
 
 .two-columns__main-text {
@@ -159,7 +153,6 @@
   font-size: 60px;
   font-weight: bold;
   line-height: 1.15;
-
 }
 
 .section-subtitle {
@@ -169,7 +162,6 @@
   line-height: 34px;
   font-size: 24px;
   padding-bottom: 60px;
-  width: 60%;
 }
 
 .techniques {
@@ -177,7 +169,6 @@
   align-items: center;
   flex-direction: column;
   list-style: none;
-
 }
 
 .cards {
@@ -201,7 +192,6 @@ display: flex;
   width: 160px;
   height: 160px;
   margin: 60px 40px 43px;
-
 }
 
 .cards__title {
@@ -210,7 +200,6 @@ display: flex;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-
 }
 
 .cards__description {
@@ -218,19 +207,16 @@ display: flex;
   font-size: 18px;
   font-weight: normal;
   text-align: center;
-
 }
 
 .video {
   display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 
 .video__iframes {
   margin: 50px auto -60px;
-
 }
 
 .video__iframe {
@@ -243,7 +229,6 @@ display: flex;
   justify-content: center;
   background-color: #f2f2f2;
   padding-top: 160px;
-
 }
 
 .table {
@@ -284,7 +269,6 @@ display: flex;
   position: absolute;
   bottom: 0;
   left: 0;
-
 }
 .feynman__title {
   line-height: 1.15;
@@ -296,7 +280,6 @@ display: flex;
   padding-bottom: 70px;
   z-index: 1;
   position: relative;
-
 }
 
 .feynman__subtitle {
@@ -307,7 +290,6 @@ display: flex;
   font-size: 36px;
   z-index: 1;
   position: relative;
-
 }
 
 .feynman__link {
@@ -318,7 +300,6 @@ display: flex;
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
-
 }
 
 .kaufman {
@@ -387,7 +368,6 @@ display: flex;
   display: flex;
   transform: rotate(15deg);
   animation: rotation 20s linear infinite;
-
 }
 
 .footer {
@@ -469,7 +449,6 @@ display: flex;
 .resources__logo {
   width: 270px;
   height: 38px;
-
 }
 
 .khan {
@@ -503,7 +482,6 @@ display: flex;
   font-size: 30px;
   font-weight: normal;
   margin: 0;
-
 }
 
 .khan__quote-author {
@@ -531,7 +509,6 @@ display: flex;
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
-
 }
 
 .khan__book-pic {
