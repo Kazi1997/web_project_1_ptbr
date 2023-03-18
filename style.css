@@ -67,7 +67,7 @@
   display: block;
 }
 
-.header__main__illustration {
+.header__main-illustration {
   z-index: 960;
   display: flex;
   width: 756px;
@@ -400,6 +400,10 @@ display: flex;
   padding: 18px 0;
 }
 
+.footer__column_content_about {
+  row-gap: 20px;
+}
+
 .footer__list {
   margin: auto;
   list-style: none;
@@ -428,6 +432,15 @@ display: flex;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_social {
+  row-gap: 20px;
 }
 
 .resources {
