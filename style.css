@@ -208,10 +208,14 @@ display: flex;
   display: flex;
   align-items: center;
   flex-direction: column;
+  width:515px;
+height: 316px;
 }
 
 .video__iframes {
   margin: 50px auto -60px;
+width:515px;
+height: 316px;
 }
 
 .video__iframe {
