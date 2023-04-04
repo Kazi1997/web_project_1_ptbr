@@ -8,5 +8,4 @@
     position: absolute;
     background-color: #2f80ed;
     transform: rotate(-15deg);
-    animation: rotation 20s linear infinite;
   }
