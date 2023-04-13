@@ -7,8 +7,8 @@
 /*root*/
 @import url(../blocks/root/root.css);
 
-/*Rotacao*/
-@import url(../blocks/rotacao/rotacao.css);
+/*Rotation*/
+@import url(../blocks/rotation/rotation.css);
 
 /*Cards*/
 @import url(../blocks/cards/cards.css);
@@ -16,7 +16,6 @@
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
-
 
 /*Cabeçalho*/
 @import url(../blocks/header/header.css);
@@ -32,9 +31,18 @@
 
 /*Description*/
 @import url(../blocks/description/description.css);
-
-/*Digits*/
+/*Digits*/ 
 @import url(../blocks/digits/digits.css);
+
+/*Table*/
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/_theme-dark/table__theme-dark.css);
+@import url(../blocks/table/__cell/_theme-dark/table__cell_theme-dark.css);
+@import url(../blocks/table/__heading/_theme-dark/table__heading_theme-dark.css);
+@import url(../blocks/table/__text/_theme-dark/table__text_theme-dark.css);
 
 /*Two*/
 @import url(../blocks/two-columns/two-columns.css);
@@ -54,17 +62,6 @@
 /*Oakley*/
 @import url(../blocks/oakley/oakley.css);
 
-/*Table*/
-@import url(../blocks/table/table.css);
-@import url(../blocks/table/__cell/table__cell.css);
-@import url(../blocks/table/__heading/table__heading.css);
-@import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/_theme_dark/table__text_theme_dark.css);
-@import url(../blocks/table/_theme/table_theme.css);
-@import url(../blocks/table/_theme/table__cell_theme_dark.css);
-@import url(../blocks/table/_theme/table__heading_theme_dark.css);
-@import url(../blocks/table/_theme/table__text_theme_dark.css);
-
 /*Feynman*/
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__image/feyman__image.css);
@@ -78,11 +75,11 @@
 
 /*Section Legends*/
 @import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/__theme_dark/section-subtitle__theme_dar.css);
+@import url(../blocks/section-subtitle/_theme-dark/section-subtitle_theme-dark.css);
 
 /*Section Title*/
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/__theme_dark/section-title__theme_dark.css);
+@import url(../blocks/section-title/_theme-dark/section-title_theme-dark.css);
 
 /*Footer*/
 @import url(../blocks/footer/footer.css);
@@ -110,3 +107,4 @@
 @import url(../blocks/khan/__container/khan__container.css);
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
 @import url(..//blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);

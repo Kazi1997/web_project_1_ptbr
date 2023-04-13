@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<div class="page">
   <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
@@ -8,20 +7,20 @@
     <link rel="stylesheet" href="page/index.css">
   </head>
   <body>
+    <div class="page">
     <header class="header">
       <img class="logo logo_place_header" src="./images/logo_place_header.png" alt="logo_place_header">
       <h1 class="header__title">Aprendendo a Aprender</h1>
       <h3 class="header__subtitle">As técnicas de aprendizado mais eficazes que você pode aplicar ao seu cotidiano.
         <a class="header__link" href="#">Saiba mais →</a>
       </h3>
-      <img class="header__main-illustration" src="images\header-image.png" alt="Ponderador épico no alto de uma montanha deliberando
+      <img class="header__main-illustration" src="images/header-image.png" alt="Ponderador épico no alto de uma montanha deliberando
   sobre os pontos mais refinados do sistema educacional moderno,
   enquanto também se questiona sobre de onde aquele quadrado
   azul gigante veio">
-      <square class="header__square"></square>
+      <div class="header__square rotation"></div>
       </header>
       <main class="content">
-        <div class="container">
           <section class="description">
             <div class="two-columns">
               <h2 class="two-columns__brief">O maior problema da educação</h2>
@@ -53,7 +52,6 @@
               </div>
             </div>
           </section>
-          <div class="container">
 <section class="techniques">
   <h2 class="section-title">Aprender Técnicas</h2>
   <h3 class="section-subtitle">As Cinco estratégias de Barbara Oakley</h3>
@@ -61,7 +59,7 @@
   <li class="cards__item">
     <img
       class="cards__image"
-      src="images\cards-attention.png"
+      src="images/cards-attention.png"
       alt="As Duas"
     />
       <h4 class="cards__title">As Duas Maneiras de Pensar</h4>
@@ -73,7 +71,7 @@
       <li class="cards__item">
         <img
           class="cards__image"
-          src="images\cards-recall.png"
+          src="images/cards-recall.png"
           alt="Recordar"
         />
       <h4 class="cards__title">Recordar</h4>
@@ -85,7 +83,7 @@
     <li class="cards__item">
       <img
         class="cards__image"
-        src="images\cards-interleaving.png"
+        src="images/cards-interleaving.png"
         alt="Intercalar"
       />
       <h4 class="cards__title">Intercalar</h4>
@@ -97,7 +95,7 @@
     <li class="cards__item">
       <img
         class="cards__image"
-        src="images\cards-question.png"
+        src="images/cards-question.png"
         alt="Questões"
       />
       <h4 class="cards__title">Questões</h4>
@@ -109,7 +107,7 @@
     <li class="cards__item">
       <img
       class="cards__image"
-      src="images\cards-competence.png"
+      src="images/cards-competence.png"
       alt="Ilusão"
       />
       <h4 class="cards__title">Ilusão da Competência</h4>
@@ -127,15 +125,11 @@
   <div class="video__iframes">
     <iframe
       class="video__iframe"
-      width="515"
-      height="316"
       src="https://www.youtube.com/embed/5MgBikgcWnY"
       allowfullscreen
     ></iframe>
     <iframe
       class="video__iframe"
-      width="515"
-      height="316"
       src="https://www.youtube.com/embed/arj7oStGLkU"
       allowfullscreen
     ></iframe>
@@ -143,7 +137,7 @@
 </section>
 <section class="oakley">
   <article class="two-columns">
-    <h2 class="two-columns__brief">A história de Barbara Oakley.</h2>
+    <h6 class="two-columns__brief">A história de Barbara Oakley.</h6>
     <div class="two-columns__main-text">
       <p class="two-columns__paragraph">
         A matemática não veio naturalmente para Barbara na infância. Ela
@@ -166,10 +160,13 @@
             <h2 class="feynman__title">A Técnica de Feynman</h2>
             <h3 class="feynman__subtitle">Aprender sem esquecer</h3>
             <a href="#" class="feynman__link">Mais →</a>
-            <img class="feynman__image" src="images\feynman.png" />
+            <img 
+            class="feynman__image"
+          src="images/feynman.png"
+          alt="feynman"
+/>
+    
           </section>
-
-
           <section class="digits">
             <h2 class="section-title">Fatos e números</h2>
             <h3 class="section-subtitle">Sobre o cérebro e o aprendizado</h3>
@@ -243,7 +240,7 @@
               <div class="khan__book-container">
                 <img
                   class="khan__book-pic"
-                  src="images\khan-book-2.png"
+                  src="images/khan-book-2.png"
                   alt="livro"
                 />
                 <a href="#" class="khan__buy-link">Comprar →</a>
@@ -251,112 +248,109 @@
             </div>
           </section>
           <section class="kaufman">
-            <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="Um grande triângulo azul, sobre o qual Josh Kaufman reclama
+            
+        <img class="kaufman__triangle rotation" src="./images/kaufman-triangle.svg" alt="Um grande triângulo azul, sobre o qual Josh Kaufman reclama
   propriedade" />
-            <h2 class="section-title__theme_dark">
+            <h2 class="section-title section-title_theme-dark">
               Dez princípios para adquirir habilidades de forma rápida
             </h2>
-            <h3 class="section-subtitle__theme_dark">por Josh Kaufman</h3>
-            <ul class="table__theme_dark">
-              <li class="table__cell_theme_dark">
-                <h4 class="table__heading_theme_dark">1</h4>
-                <p class="table__text_theme_dark">
+            <h3 class="section-subtitle  section-subtitle_theme-dark">por Josh Kaufman</h3>
+            <ul class="table table_theme-dark">
+              <li class="table__cell table__cell_theme-dark">
+                <h4 class="table__heading table__heading_theme-dark">1</h4>
+                <p class="table__text table__text_theme-dark">
                   Escolha um projeto que te traga interesse
                 </p>
               </li>
-              <li class="table__cell_theme_dark">
-                <h4 class="table__heading_theme_dark">2</h4>
-                <p class="table__text_theme_dark">
+              <li class="table__cell table__cell_theme-dark">
+                <h4 class="table__heading table__heading_theme-dark">2</h4>
+                <p class="table__text table__text_theme-dark">
                   Foque a sua energia em uma habilidade por vez
                 </p>
               </li>
-              <li class="table__cell_theme_dark">
-                <h4 class="table__heading_theme_dark">3</h4>
-                <p class="table__text_theme_dark">
+              <li class="table__cell table__cell_theme-dark">
+                <h4 class="table__heading table__heading_theme-dark">3</h4>
+                <p class="table__text table__text_theme-dark">
                   Defina o seu nível alvo de performance
                 </p>
               </li>
-              <li class="table__cell_theme_dark">
-                <h4 class="table__heading_theme_dark">4</h4>
-                <p class="table__text_theme_dark">
+              <li class="table__cell table__cell_theme-dark">
+                <h4 class="table__heading table__heading_theme-dark">4</h4>
+                <p class="table__text table__text_theme-dark">
                   Desconstrua a habilidade em sub-habilidades
                 </p>
               </li>
-              <li class="table__cell_theme_dark">
-                <h4 class="table__heading_theme_dark">5</h4>
-                <p class="table__text_theme_dark">Obtenha ferramentas críticas</p>
+              <li class="table__cell table__cell_theme-dark">
+                <h4 class="table__heading table__heading_theme-dark">5</h4>
+                <p class="table__text table__text_theme-dark">Obtenha ferramentas críticas</p>
               </li>
-              <li class="table__cell_theme_dark">
-                <h4 class="table__heading_theme_dark">6</h4>
-                <p class="table__text_theme_dark">
+              <li class="table__cell table__cell_theme-dark">
+                <h4 class="table__heading table__heading_theme-dark">6</h4>
+                <p class="table__text table__text_theme-dark">
                   Elimite as barreiras para praticar
                 </p>
               </li>
-              <li class="table__cell_theme_dark">
-                <h4 class="table__heading_theme_dark">7</h4>
-                <p class="table__text_theme_dark">Dedique tempo para a prática</p>
+              <li class="table__cell table__cell_theme-dark">
+                <h4 class="table__heading table__heading_theme-dark">7</h4>
+                <p class="table__text table__text_theme-dark">Dedique tempo para a prática</p>
               </li>
-              <li class="table__cell_theme_dark">
-                <h4 class="table__heading_theme_dark">8</h4>
-                <p class="table__text_theme_dark">
-                  Crie ciclos de feedback rápidos
+              <li class="table__cell table__cell_theme-dark">
+                <h4 class="table__heading table__heading_theme-dark">8</h4>
+                <p class="table__text table__text_theme-dark">Crie ciclos de feedback rápidos
                 </p>
               </li>
-              <li class="table__cell_theme_dark">
-                <h4 class="table__heading_theme_dark">9</h4>
-                <p class="table__text_theme_dark">
-                  Pratique usando o relógio, em intervalos curtos de tempo
+              <li class="table__cell table__cell_theme-dark">
+                <h4 class="table__heading table__heading_theme-dark">9</h4>
+                <p class="table__text table__text_theme-dark">Pratique usando o relógio, em intervalos curtos de tempo
                 </p>
               </li>
-              <li class="table__cell_theme_dark">
-                <h4 class="table__heading_theme_dark">10</h4>
-                <p class="table__text_theme_dark">
-                  Dê ênfase a quantidade e velocidade
+              <li class="table__cell table__cell_theme-dark">
+                <h4 class="table__heading table__heading_theme-dark">10</h4>
+                <p class="table__text table__text_theme-dark">Dê ênfase a quantidade e velocidade
                 </p>
               </li>
             </ul>
           </section>
-      </main>
       <section class="resources">
         <h2 class="section-title">Recursos úteis</h2>
         <h3 class="section-subtitle">
           Material adicional sobre técnicas e hacks de aprendizagem.
         </h3>
-        <div class="resources__logo-zone">
+        <nav class="resources__logo-zone">
           <a href="#">
             <img
               class="resources__logo"
-              src="images\resources-tedED.png"
+              src="images/resources-tedED.png"
               alt="logo-ted"
           /></a>
           <a href="#">
             <img
               class="resources__logo"
-              src="images\resources-Medium.png"
+              src="images/resources-Medium.png"
               alt="logo-medium"
           /></a>
           <a href="#">
             <img
               class="resources__logo"
-              src="images\resources-dezeen.png"
+              src="images/resources-dezeen.png"
               alt="logo-medium"
           /></a>
           <a href="#">
             <img
               class="resources__logo"
-              src="images\resources-goodreads.png"
+              src="images/resources-goodreads.png"
               alt="logo-goodreads"
           /></a>
-        </div>
+        </nav>
       </section>
-    </main>
+      </main>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
-          <img class="footer__logo_place_footer" src="images\logo_place_footer.png" alt="Practicum Logo rodapé">
+        <div class="footer__column footer__column_content_copyright">
+          <img class="footer__logo footer__logo_place_footer" src="images/logo_place_footer.png" alt="Practicum Logo rodapé">
           <p class="footer__author">&copy; 2023 Karoline Ferreira</p>
         </div>
-        <div class="footer__column_content_about">
+        <div class="footer__column footer__column_content_about">
           <h2 class="footer__column-heading">Sobre Practicum by Yandex</h2>
           <ul class="footer__list">
             <li>
@@ -370,7 +364,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer__column_content_social">
+        <div class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Mídia social</h2>
           <ul class="footer__list">
             <li>
