@@ -1,0 +1,15 @@
+/*  NEEDS CORRECTION
+
+Esta classe recebe as propriedades DISPLAY, FLEX-DIRECTION e ALIGN-ITEMS  
+  
+  */
+
+
+.feynman {
+    height: 790px;
+    position: relative;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

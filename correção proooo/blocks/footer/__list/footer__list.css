@@ -1,0 +1,12 @@
+/*  NEEDS CORRECTION
+  
+Esta classe não recebe as propriedades LINE-HEIGHT, FONT-SIZE e FONT-WEIGHT
+  
+  */
+
+
+.footer__list {
+    margin: 0;  /*  O valor correto é 0 */
+    list-style: none;
+    padding: 0px;
+  }

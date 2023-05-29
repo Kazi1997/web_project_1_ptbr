@@ -1,0 +1,35 @@
+/*  NEEDS CORRECTION
+  
+Esta classe não recebe a propriedade COLOR
+Esta classe recebe as propriedades DISPLAY, JUSTIFY-CONTENT e BOX-SIZING
+
+  
+  */
+
+
+.footer {
+    background-color: #1f1f1f;
+    padding: 60px 0 40px 0;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+      
+/*  NEEDS CORRECTION
+  
+    ATENÇÃO !!
+
+    está faltando criar 2 classes ! por favor crie as classes  
+
+    footer__column_content_about  esta classe recebe apenas a propriedade row-gap
+
+    footer__column_content_social  esta classe recebe apenas a propriedade row-gap
+
+    LEMBRE-SE de  fazer o import das classes no arquivo INDEX.CSS
+
+
+  
+  */      
+      

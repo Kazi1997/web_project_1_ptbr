@@ -1,0 +1,16 @@
+/*  NEEDS CORRECTION
+
+Esta classe recebe a propriedade TEXT-DECORATION 
+  
+  */
+
+.feynman__link {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    color: #2f80ed;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 51px;
+    text-decoration: none;
+  }

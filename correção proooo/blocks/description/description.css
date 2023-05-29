@@ -1,0 +1,12 @@
+/*  NEEDS CORRECTION
+
+Esta classe não recebe a propriedade BACKGROUND
+Esta classe recebe as propriedades DISPLAY  e JUSTIFY-CONTENT  
+  
+  */
+
+.description {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+  }

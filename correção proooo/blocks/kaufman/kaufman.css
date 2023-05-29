@@ -1,0 +1,17 @@
+/*  NEEDS CORRECTION
+
+Esta classe recebe as propriedades DISPLAY, FLEX-DIRECTION e ALIGN-ITEMS 
+  
+  */
+
+
+.kaufman {
+    position: relative;
+    padding: 90px 0;
+    overflow: hidden;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }

@@ -1,0 +1,16 @@
+/*  NEEDS CORRECTION
+
+Esta classe não recebe as propriedades FLEX-DIRECTION e JUSTIFY-CONTENT  
+Esta classe recebe a propriedade BACKGROUND-COLOR  
+  */
+
+
+.header {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    display: flex;
+    overflow-x: hidden;
+    background-color: #f2f2f2;
+  }

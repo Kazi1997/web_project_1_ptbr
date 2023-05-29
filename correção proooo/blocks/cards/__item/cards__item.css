@@ -1,0 +1,11 @@
+/*  NEEDS CORRECTION
+
+Esta classe não recebe a propriedade MARGIN
+Esta classe recebe a propriedade LIST-STYLE  
+  
+  */
+
+.cards__item {
+    width: 240px;
+  list-style: none;  
+  }
